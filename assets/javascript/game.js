@@ -5,6 +5,11 @@ $(document).ready(function(){
 	var wins = 0;
 	var lose = 0;
 	var yourscore = 0;
+	var clicks = 0;
+	
+	if MouseIsPressed {
+	var clicks += 1;	
+	}
 	
 	var matchscore = Math.floor((Math.random() * 101) + 19);
 
